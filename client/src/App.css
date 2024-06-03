@@ -1,0 +1,88 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.friend-list {
+  width: 200px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.friend-list div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.chat-window {
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.message-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.message-input input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.message-input button {
+  padding: 10px;
+}
+
+.home {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h1 {
+  margin: 0;
+}
+
+.home p {
+  margin: 10px 0 0 0;
+}
+
+.friend-list {
+  padding: 10px;
+}
+
+.friend-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #f7fafc;
+  transition: background-color 0.3s ease;
+}
+
+.friend-item.selected {
+  background-color: #4299e1;
+  color: white;
+}
+
+.home-link {
+  margin-top: auto;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #edf2f7;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.delete-link {
+  background-color: rgb(245, 91, 91);
+  border: none;
+}
